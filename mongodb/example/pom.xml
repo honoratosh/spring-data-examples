@@ -11,6 +11,22 @@
 		<artifactId>spring-data-mongodb-examples</artifactId>
 		<version>1.0.0.BUILD-SNAPSHOT</version>
 	</parent>
+	
+	<dependencies>
+	
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+			<version>1.9.0.DATAMONGO-1345-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-commons</artifactId>
+			<version>1.12.0.DATACMNS-89-SNAPSHOT</version>
+		</dependency>
+	
+	</dependencies>
 
 	<build>
 		<plugins>
@@ -20,7 +36,7 @@
 				<version>${apt.version}</version>
 				<dependencies>
 					<dependency>
-						<groupId>com.mysema.querydsl</groupId>
+						<groupId>com.querydsl</groupId>
 						<artifactId>querydsl-apt</artifactId>
 						<version>${querydsl.version}</version>
 					</dependency>

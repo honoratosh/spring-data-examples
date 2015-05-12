@@ -24,6 +24,11 @@
 		<module>security</module>
 		<module>geo-json</module>
 	</modules>
+	
+	<properties>
+		<spring-data-releasetrain.version>Hopper-BUILD-SNAPSHOT</spring-data-releasetrain.version>
+		<querydsl.version>4.0.6</querydsl.version>
+	</properties>
 
 	<dependencies>
 
@@ -33,7 +38,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.mysema.querydsl</groupId>
+			<groupId>com.querydsl</groupId>
 			<artifactId>querydsl-mongodb</artifactId>
 			<version>${querydsl.version}</version>
 		</dependency>
