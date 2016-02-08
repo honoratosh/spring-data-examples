@@ -18,6 +18,7 @@
 	    <module>util</module>
 		<module>cluster-sentinel</module>
 		<module>example</module>
+		<module>repository</module>
 	</modules>
 
 	<dependencies>
